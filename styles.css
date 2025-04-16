@@ -1,0 +1,438 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-image: url('background\ 2.jpg'); /* Image path */
+    background-size: cover;      /* Make the image cover the whole screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;/* Prevent tiling */
+    background-attachment: fixed;/* Makes it stay fixed when scrolling */
+    color: rgb(0, 0, 0);                /* Optional: Text color for contrast */
+  }
+  
+  .hero {
+    background: url('https://source.unsplash.com/1600x600/?travel') center/cover no-repeat;
+    color: rgb(55, 46, 46);
+    text-align: center;
+    padding: 100px 20px;
+  }
+
+  .h{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .hero h1 {
+    font-size: 8rem; /* Increased from 3rem to 4rem */
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background: #ff5722;
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .explore {
+    font-size: 3rem
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .destinations {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    padding: 15px;
+  }
+  
+  .booking {
+    padding: 60px 20px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .booking form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+  }
+  
+  .booking input,
+  .booking select,
+  .booking button {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .booking button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .creative {
+    padding: 60px 20px;
+    background: #e0f7fa;
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #263238;
+    color: white;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .destinations {
+    .destinations {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+      gap: 15px; /* Small gap between cards */
+      padding: 20px;
+      justify-items: center;
+    }
+    
+  }
+  
+  .card {
+    background: linear-gradient(to bottom right, rgba(255, 94, 77, 0.8), rgba(255, 148, 77, 0.8), rgba(255, 200, 77, 0.8));
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 15px;
+    color: black;  /* Ensure the text is readable on the darkened background */
+  }
+  
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    padding: 15px 15px 0;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    padding: 10px 15px;
+    flex-grow: 1;
+  }
+  
+  .card a.btn {
+    margin-top: auto;
+    align-self: center;
+  }
+  .booking textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+  }
+  .booking h3 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+   
+      font-size: 1.2rem;
+      margin-top: 20px;
+      color: #333;
+      font-weight: bold;
+      text-align: left; /* Align the heading to the left */
+    
+    
+
+  }
+  .about-us {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .team-member {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+  }
+  .explore {
+    background: linear-gradient(to top, #ff7e5f, #feb47b); /* Sunset Gradient */
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.explore h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.booking {
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* Ocean Breeze Gradient */
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+}
+
+.booking form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+}
+
+.booking input,
+.booking select,
+.booking button {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.booking button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* About Us Section */
+#about-us {
+  background: linear-gradient(to top right, #ff7e5f, #feb47b); /* Colorful gradient */
+  color: black;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  animation: fadeIn 2s ease-in-out; /* Smooth fade-in effect */
+}
+
+#about-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+
+.about-text, .about-services {
+  width: 45%;
+}
+
+.about-text h3, .about-services h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about-services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-services li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect on services */
+.about-services li:hover {
+  transform: scale(1.05);
+}
+
+/* Button Styling */
+.learn-more-btn {
+  background-color: #ff5722;
+  padding: 12px 30px;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect on button */
+.learn-more-btn:hover {
+  background-color: #e64a19;
+}
+
+/* Animation for fade-in */
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-text, .about-services {
+      width: 100%;
+  }
+}
+.services {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.service {
+  display: inline-block;
+  width: 250px;
+  margin: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.service img {
+  width: 80px;  /* Adjust according to logo size */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 1rem;
+  color: #555;
+}
+
